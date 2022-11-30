@@ -1,0 +1,326 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+* {
+  box-sizing: border-box;
+}
+nav {
+  background-color: #efefef;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+nav div.left-navbar img {
+  height: 5vh;
+}
+a {
+  text-decoration: none;
+}
+nav div.left-navbar {
+  padding: 1.5rem;
+}
+nav div.left-navbar a {
+  vertical-align: middle;
+  color: black;
+  font-size: 2rem;
+  font-weight: bold;
+}
+nav div.left-navbar a:last-child:hover {
+  opacity: 0.6;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  display: inline-block;
+  top: 0;
+  right: 0;
+}
+nav ul li a {
+  top: 0;
+  left: 0;
+  padding: 2.5rem 1rem;
+  color: black;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+nav ul li a:hover {
+  opacity: 0.7;
+  background-color: white;
+}
+nav div.right-navbar {
+  padding: 1.5rem;
+}
+nav div.right-navbar a {
+  padding: 0.8rem 1.2rem;
+  color: black;
+  font-size: 1.5rem;
+  border-radius: 8px;
+  margin-right: 0.5rem;
+}
+nav div.right-navbar a:first-child {
+  background-color: white;
+}
+nav div.right-navbar a:nth-child(2) {
+  background-color: white;
+}
+nav div.right-navbar a:last-child {
+  background-color: white;
+}
+section.top {
+  background-image: url("../img/Best_Laptop_for_DevOps_Engineer.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 65vh;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+section.top h2,
+section.top h1,
+section.top p {
+  margin: 0;
+  z-index: 1;
+  color: white;
+}
+section.top h2 {
+  margin-bottom: 0.6rem;
+}
+section.top h1 {
+  margin-bottom: 1.1rem;
+  font-size: 3rem;
+}
+section.top p {
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+  color: #1f1e1e;
+}
+section.top::after {
+  content: "";
+  background-color: #3b3b3b;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.9;
+  z-index: 0;
+}
+section.top div.orta {
+  z-index: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+section.top div.orta a:first-child {
+  color: black;
+  padding: 1.2rem 2.5rem;
+  background-color: #f7d9c4;
+  font-weight: bold;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+section.top div.orta a:last-child {
+  color: white;
+  padding: 1.2rem 2.5rem;
+  border: 2px solid #131313;
+  font-weight: bold;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+section.top .container {
+  position: absolute;
+  top: 12rem;
+  left: 30rem;
+  z-index: 1;
+  width: 23vw;
+}
+section.top div.orta a:first-child:hover {
+  background-color: white;
+}
+section.top div.orta a:last-child:hover {
+  color: black;
+  background-color: #f7d9c4;
+}
+div.kapsayici {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin: 4rem 0 5rem 0;
+}
+div.kapsayici h2 {
+  align-self: flex-start;
+  margin-left: 30rem;
+}
+section.bottom p {
+  font-size: 1.2rem;
+  width: 60vw;
+  color: #777777;
+  word-spacing: 5px;
+  margin-left: 13rem;
+}
+section.bottom h2 {
+  font-size: 1.8rem;
+}
+section.bottom span {
+  display: inline-block;
+  margin: 1rem 1rem 1rem 0;
+  color: #777777;
+  font-size: 1.2rem;
+  margin-right: 10rem;
+}
+.alt {
+  margin-top: 1rem;
+  margin-left: 13rem;
+}
+section.bottom span::before {
+  font: var(--fa-font-solid);
+  content: "\f00c";
+  background-color: #efefef;
+  padding: 0.5rem;
+  border-radius: 25px;
+  margin-right: 0.5rem;
+  color: black;
+}
+span.alti {
+  position: relative;
+  left: 6px;
+}
+section.en-alt {
+  padding: 0.1rem;
+  background-color: #efefef;
+  height: 60vh;
+}
+section.en-alt h2 {
+  text-align: center;
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+section.en-alt .kutu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+section.en-alt .kutu1 img {
+  width: 15vw;
+  height: 22vh;
+}
+section.en-alt .kutu1 {
+  background-color: white;
+  height: 35vh;
+  border-radius: 10px;
+}
+section.en-alt .kutu1 p {
+  padding-left: 1rem;
+}
+section.en-alt .kutu1 p.ilk {
+  color: #777777;
+  margin: 1rem 0 0 1rem;
+}
+
+section.en-alt .kutu1 p.last {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin: 1rem 0 0 1rem;
+}
+section.en-alt .kutu1 i {
+  background-color: rgb(252, 249, 249);
+  padding: 1rem;
+  position: relative;
+  bottom: 7rem;
+  left: 14rem;
+  border-radius: 10px;
+}
+section.en-alt .kutu1:hover {
+  cursor: pointer;
+}
+section.en-alt .kutu2 img {
+  width: 15vw;
+  height: 22vh;
+}
+section.en-alt .kutu2 {
+  background-color: white;
+  height: 35vh;
+  border-radius: 10px;
+}
+section.en-alt .kutu2 p {
+  padding-left: 1rem;
+}
+section.en-alt .kutu2 p.ilk {
+  color: #777777;
+  margin: 1rem 0 0 1rem;
+}
+
+section.en-alt .kutu2 p.last {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin: 1rem 0 0 1rem;
+}
+section.en-alt .kutu2 i {
+  background-color: rgb(252, 249, 249);
+  padding: 1rem;
+  position: relative;
+  bottom: 7rem;
+  left: 14rem;
+  border-radius: 10px;
+}
+section.en-alt .kutu2:hover {
+  cursor: pointer;
+}
+section.en-alt .kutu3 img {
+  width: 15vw;
+  height: 22vh;
+}
+section.en-alt .kutu3 {
+  background-color: white;
+  height: 35vh;
+  border-radius: 10px;
+}
+section.en-alt .kutu3 p {
+  padding-left: 1rem;
+}
+section.en-alt .kutu3 p.ilk {
+  color: #777777;
+  margin: 1rem 0 0 1rem;
+}
+
+section.en-alt .kutu3 p.last {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin: 1rem 0 0 1rem;
+}
+section.en-alt .kutu3 i {
+  background-color: rgb(252, 249, 249);
+  padding: 1rem;
+  position: relative;
+  bottom: 7rem;
+  left: 14rem;
+  border-radius: 10px;
+}
+section.en-alt .kutu3:hover {
+  cursor: pointer;
+}
+footer {
+  background-color: #14191e;
+}
+footer p {
+  text-align: center;
+  padding: 2rem;
+  margin: 0;
+  color: white;
+  font-size: 1.2rem;
+}
